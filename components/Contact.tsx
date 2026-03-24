@@ -216,13 +216,34 @@ export default function Contact() {
           >
             <div className="flex flex-col gap-6">
               <div>
-                <p className="section-label mb-1">Phone</p>
+                <p className="section-label mb-1">Cork</p>
                 <a
-                  href={`tel:${c.phone.replace(/\s/g, "")}`}
+                  href={`tel:${c.phoneCork.replace(/\s/g, "")}`}
                   className="font-dm-sans font-light text-text hover:text-accent-green transition-colors"
                 >
-                  {c.phone}
+                  {c.phoneCork}
                 </a>
+              </div>
+
+              <div>
+                <p className="section-label mb-1">Quarteira</p>
+                <div className="flex items-center gap-3">
+                  <a
+                    href={`tel:${c.phoneQuarteira.replace(/\s/g, "")}`}
+                    className="font-dm-sans font-light text-text hover:text-accent-green transition-colors"
+                  >
+                    {c.phoneQuarteira}
+                  </a>
+                  <a
+                    href={c.whatsappHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="WhatsApp"
+                    className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-accent-green hover:opacity-70 transition-opacity"
+                  >
+                    WhatsApp ↗
+                  </a>
+                </div>
               </div>
 
               <div>

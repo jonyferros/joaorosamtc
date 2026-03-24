@@ -145,7 +145,9 @@ export const translations = {
       success: "Thank you. I'll be in touch shortly.",
       error:
         "Something went wrong. Please try again or email directly.",
-      phone: "+351 916 777 777",
+      phoneCork: "+353 85 263 0800",
+      phoneQuarteira: "+351 916 777 777",
+      whatsappHref: "https://wa.me/351916777777",
       email: "info@joaorosamtc.com",
       instagram: "@joaorosamtc",
     },
@@ -298,7 +300,9 @@ export const translations = {
       success: "Obrigado. Entrarei em contacto em breve.",
       error:
         "Algo correu mal. Por favor tente novamente ou envie email diretamente.",
-      phone: "+351 916 777 777",
+      phoneCork: "+353 85 263 0800",
+      phoneQuarteira: "+351 916 777 777",
+      whatsappHref: "https://wa.me/351916777777",
       email: "info@joaorosamtc.com",
       instagram: "@joaorosamtc",
     },
