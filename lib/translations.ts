@@ -23,7 +23,7 @@ export const translations = {
       label: "Acupuncture & Traditional Chinese Medicine",
       headline1: "Ancient Medicine.",
       headline2: "Modern Practice.",
-      sub: "Treating body and mind through the wisdom of TCM — now in Cork and Quarteira.",
+      sub: "Treating body and mind through the wisdom of TCM, now in Cork and Quarteira.",
       cta: "Book a Session",
       location: "Cork  ·  Quarteira",
       // Editorial fact strip — right column on desktop
@@ -87,11 +87,11 @@ export const translations = {
         {
           number: "02",
           title: "Personalised Treatment",
-          body: "Acupuncture and TCM protocols designed specifically for your pattern — not a generic protocol.",
+          body: "Acupuncture and TCM protocols designed specifically for your pattern, not a generic protocol.",
         },
         {
           number: "03",
-          title: "Ongoing Support",
+          title: "Ongoing Follow-up",
           body: "Regular sessions to restore balance, track progress, and support your long-term wellbeing.",
         },
       ],
@@ -180,7 +180,7 @@ export const translations = {
       label: "Acupuntura & Medicina Tradicional Chinesa",
       headline1: "Medicina Ancestral.",
       headline2: "Prática Moderna.",
-      sub: "Tratamento do corpo e da mente com base na Medicina Tradicional Chinesa — em Cork e em Quarteira.",
+      sub: "Tratamento do corpo e da mente com base na Medicina Tradicional Chinesa, em Cork e em Quarteira.",
       cta: "Marcar Consulta",
       location: "Cork  ·  Quarteira",
       // Editorial fact strip — right column on desktop
@@ -244,11 +244,11 @@ export const translations = {
         {
           number: "02",
           title: "Tratamento Personalizado",
-          body: "Protocolos de acupuntura e MTC desenhados especificamente para o seu padrão — não um protocolo genérico.",
+          body: "Protocolos de acupuntura e MTC desenhados especificamente para o seu padrão, não um protocolo genérico.",
         },
         {
           number: "03",
-          title: "Apoio Contínuo",
+          title: "Acompanhamento",
           body: "Sessões regulares para restaurar o equilíbrio, acompanhar a evolução e apoiar o seu bem-estar a longo prazo.",
         },
       ],
