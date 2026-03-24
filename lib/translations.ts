@@ -23,13 +23,13 @@ export const translations = {
       label: "Acupuncture & Traditional Chinese Medicine",
       headline1: "Ancient Medicine.",
       headline2: "Modern Practice.",
-      sub: "Treating body and mind through the wisdom of TCM — now in Cork, Ireland and Portugal.",
+      sub: "Treating body and mind through the wisdom of TCM — now in Cork and Quarteira.",
       cta: "Book a Session",
-      location: "Cork, Ireland  ·  Quarteira, Portugal",
+      location: "Cork  ·  Quarteira",
       // Editorial fact strip — right column on desktop
       stats: [
         { label: "Discipline", value: "Acupuncture & TCM" },
-        { label: "Locations", value: "Cork, IE  ·  Quarteira, PT" },
+        { label: "Locations", value: "Cork  ·  Quarteira" },
         { label: "Consultations", value: "In-person & Online" },
       ],
       // Customer quote — displayed below the stats strip
@@ -107,6 +107,7 @@ export const translations = {
         clinic: "The Natural Clinic",
         address: "The Old Firehouse, 23 Sullivans Quay, Cork, Ireland",
         website: "thenaturalclinic.ie",
+        phone: "+353 85 263 0800",
         note: "Accepting patients in Cork.",
         cta: "Book in Cork →",
         href: "https://thenaturalclinic.ie/appointment/",
@@ -116,6 +117,7 @@ export const translations = {
         clinic: "Clínica AC",
         address: "Rua Infante Santo, Quarteira, Portugal",
         phone: "+351 916 777 777",
+        whatsappHref: "https://wa.me/351916777777",
         note: "Now accepting new patients in Portugal.",
         cta: "Book in Portugal →",
         href: "mailto:info@joaorosamtc.com",
@@ -174,13 +176,13 @@ export const translations = {
       label: "Acupuntura & Medicina Tradicional Chinesa",
       headline1: "Medicina Ancestral.",
       headline2: "Prática Moderna.",
-      sub: "Tratando corpo e mente através da sabedoria da MTC — agora em Cork, Irlanda e Portugal.",
+      sub: "A tratar corpo e mente através da sabedoria da MTC — em Cork e em Quarteira.",
       cta: "Marcar Consulta",
-      location: "Cork, Irlanda  ·  Quarteira, Portugal",
+      location: "Cork  ·  Quarteira",
       // Editorial fact strip — right column on desktop
       stats: [
         { label: "Disciplina", value: "Acupuntura & MTC" },
-        { label: "Localizações", value: "Cork, IE  ·  Quarteira, PT" },
+        { label: "Localizações", value: "Cork  ·  Quarteira" },
         { label: "Consultas", value: "Presencial & Online" },
       ],
       // Customer quote — displayed below the stats strip
@@ -196,7 +198,7 @@ export const translations = {
       label: "Sobre",
       heading1: "Uma Abordagem Fundamentada",
       heading2: "à Cura Ancestral",
-      body: "João Rosa é acupunturista licenciado e praticante de Medicina Tradicional Chinesa com anos de experiência clínica no tratamento de uma vasta gama de condições físicas e emocionais. Formado em ambientes clínicos orientais e ocidentais, traz precisão, paciência e genuína curiosidade a cada tratamento. A sua abordagem é baseada em evidências, enraizada na teoria clássica da MTC e sempre adaptada ao indivíduo. João pratica atualmente na The Natural Clinic em Cork, Irlanda, e na sua nova clínica em Quarteira, Portugal.",
+      body: "João Rosa é acupunctor licenciado e praticante de Medicina Tradicional Chinesa com anos de experiência clínica no tratamento de uma vasta gama de condições físicas e emocionais. Formado em ambientes clínicos orientais e ocidentais, traz precisão, paciência e genuína curiosidade a cada tratamento. A sua abordagem é baseada em evidências, enraizada na teoria clássica da MTC e sempre adaptada ao indivíduo. João pratica actualmente na The Natural Clinic em Cork e na Clínica AC em Quarteira.",
     },
 
     // ── Services / Conditions ────────────────────────────────────────
@@ -233,7 +235,7 @@ export const translations = {
         {
           number: "01",
           title: "Consulta Inicial",
-          body: "Uma avaliação detalhada do seu histórico de saúde, estilo de vida e objetivos. Sem pressa. Cada detalhe importa.",
+          body: "Uma avaliação detalhada do seu historial de saúde, estilo de vida e objectivos. Sem pressa. Cada detalhe importa.",
         },
         {
           number: "02",
@@ -258,6 +260,7 @@ export const translations = {
         clinic: "The Natural Clinic",
         address: "The Old Firehouse, 23 Sullivans Quay, Cork, Ireland",
         website: "thenaturalclinic.ie",
+        phone: "+353 85 263 0800",
         note: "A aceitar pacientes em Cork.",
         cta: "Marcar em Cork →",
         href: "https://thenaturalclinic.ie/appointment/",
@@ -267,6 +270,7 @@ export const translations = {
         clinic: "Clínica AC",
         address: "Rua Infante Santo, Quarteira, Portugal",
         phone: "+351 916 777 777",
+        whatsappHref: "https://wa.me/351916777777",
         note: "A aceitar novos pacientes em Portugal.",
         cta: "Marcar em Portugal →",
         href: "mailto:info@joaorosamtc.com",

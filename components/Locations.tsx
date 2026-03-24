@@ -80,6 +80,15 @@ export default function Locations() {
               {l.ireland.website}
             </a>
 
+            <div className="mt-3">
+              <a
+                href={`tel:${l.ireland.phone.replace(/\s/g, "")}`}
+                className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
+              >
+                {l.ireland.phone}
+              </a>
+            </div>
+
             <p className="mt-6 font-dm-sans font-light text-muted text-sm">
               {l.ireland.note}
             </p>
@@ -120,12 +129,24 @@ export default function Locations() {
               {l.portugal.address}
             </p>
 
-            <a
-              href={`tel:${l.portugal.phone.replace(/\s/g, "")}`}
-              className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
-            >
-              {l.portugal.phone}
-            </a>
+            {/* Phone + WhatsApp shortcut side by side */}
+            <div className="flex items-center gap-3">
+              <a
+                href={`tel:${l.portugal.phone.replace(/\s/g, "")}`}
+                className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
+              >
+                {l.portugal.phone}
+              </a>
+              <a
+                href={l.portugal.whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-accent-green hover:opacity-70 transition-opacity"
+              >
+                WhatsApp ↗
+              </a>
+            </div>
 
             <p className="mt-6 font-dm-sans font-light text-muted text-sm">
               {l.portugal.note}
