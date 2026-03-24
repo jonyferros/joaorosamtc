@@ -253,7 +253,7 @@ export default function Contact() {
             <div className="flex flex-col gap-6">
               {/* Cork phone */}
               <div>
-                <p className="section-label mb-2">Cork</p>
+                <p className="section-label mb-2">{c.labelIreland}</p>
                 <a
                   href={`tel:${c.phoneCork.replace(/\s/g, "")}`}
                   className="flex items-center gap-3 font-dm-sans font-light text-text hover:text-accent-green transition-colors group"
@@ -265,7 +265,7 @@ export default function Contact() {
 
               {/* Quarteira phone + WhatsApp */}
               <div>
-                <p className="section-label mb-2">Quarteira</p>
+                <p className="section-label mb-2">{c.labelPortugal}</p>
                 <a
                   href={`tel:${c.phoneQuarteira.replace(/\s/g, "")}`}
                   className="flex items-center gap-3 font-dm-sans font-light text-text hover:text-accent-green transition-colors mb-3"
