@@ -176,7 +176,7 @@ export const translations = {
       label: "Acupuntura & Medicina Tradicional Chinesa",
       headline1: "Medicina Ancestral.",
       headline2: "Prática Moderna.",
-      sub: "A tratar corpo e mente através da sabedoria da MTC — em Cork e em Quarteira.",
+      sub: "Tratamento do corpo e da mente com base na Medicina Tradicional Chinesa — em Cork e em Quarteira.",
       cta: "Marcar Consulta",
       location: "Cork  ·  Quarteira",
       // Editorial fact strip — right column on desktop
