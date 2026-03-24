@@ -46,9 +46,30 @@ export default function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-20">
 
-          {/* Left — language toggle (desktop) + hamburger (mobile) */}
+          {/* Left — logo image */}
+          <a href="#hero" aria-label="João Rosa Chinese Medicine — home">
+            <Image
+              src="/images/logo.png"
+              alt="João Rosa Chinese Medicine"
+              height={64}
+              width={114}
+              className="object-contain"
+              priority
+            />
+          </a>
+
+          {/* Centre — desktop nav links */}
+          <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
+            {navLinks.map((link) => (
+              <a key={link.label} href={link.href} className="nav-link">
+                {link.label}
+              </a>
+            ))}
+          </nav>
+
+          {/* Right — language toggle (desktop) + hamburger (mobile) */}
           <div className="flex items-center gap-6">
             <div className="hidden md:block">
               <LanguageToggle variant="dark" />
@@ -66,27 +87,6 @@ export default function Navbar() {
               <span className="block w-3.5 h-px bg-dark" />
             </button>
           </div>
-
-          {/* Centre — desktop nav links */}
-          <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
-            {navLinks.map((link) => (
-              <a key={link.label} href={link.href} className="nav-link">
-                {link.label}
-              </a>
-            ))}
-          </nav>
-
-          {/* Right — logo image */}
-          <a href="#hero" aria-label="João Rosa Chinese Medicine — home">
-            <Image
-              src="/images/logo.png"
-              alt="João Rosa Chinese Medicine"
-              height={48}
-              width={85}
-              className="object-contain"
-              priority
-            />
-          </a>
         </div>
       </header>
 
