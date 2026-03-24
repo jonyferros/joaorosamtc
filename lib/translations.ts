@@ -113,7 +113,7 @@ export const translations = {
       },
       portugal: {
         flag: "🇵🇹",
-        clinic: "Clínica João Rosa MTC",
+        clinic: "Clínica AC",
         address: "Rua Infante Santo, Quarteira, Portugal",
         phone: "+351 916 777 777",
         note: "Now accepting new patients in Portugal.",
@@ -264,7 +264,7 @@ export const translations = {
       },
       portugal: {
         flag: "🇵🇹",
-        clinic: "Clínica João Rosa MTC",
+        clinic: "Clínica AC",
         address: "Rua Infante Santo, Quarteira, Portugal",
         phone: "+351 916 777 777",
         note: "A aceitar novos pacientes em Portugal.",
