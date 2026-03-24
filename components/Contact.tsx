@@ -263,16 +263,21 @@ export default function Contact() {
                 </a>
               </div>
 
-              {/* Quarteira phone + WhatsApp */}
+              {/* Portugal phone */}
               <div>
                 <p className="section-label mb-2">{c.labelPortugal}</p>
                 <a
                   href={`tel:${c.phoneQuarteira.replace(/\s/g, "")}`}
-                  className="flex items-center gap-3 font-dm-sans font-light text-text hover:text-accent-green transition-colors mb-3"
+                  className="flex items-center gap-3 font-dm-sans font-light text-text hover:text-accent-green transition-colors"
                 >
                   <IconPhone />
                   {c.phoneQuarteira}
                 </a>
+              </div>
+
+              {/* WhatsApp */}
+              <div>
+                <p className="section-label mb-2">WhatsApp</p>
                 <a
                   href={c.whatsappHref}
                   target="_blank"
@@ -280,7 +285,7 @@ export default function Contact() {
                   className="flex items-center gap-3 font-dm-sans font-light text-accent-green hover:opacity-70 transition-opacity"
                 >
                   <IconWhatsApp />
-                  WhatsApp
+                  {c.phoneQuarteira}
                 </a>
               </div>
 
