@@ -198,7 +198,7 @@ export const translations = {
       label: "Sobre",
       heading1: "Uma Abordagem Fundamentada",
       heading2: "à Cura Ancestral",
-      body: "João Rosa é acupunctor licenciado e praticante de Medicina Tradicional Chinesa com anos de experiência clínica no tratamento de uma vasta gama de condições físicas e emocionais. Formado em ambientes clínicos orientais e ocidentais, traz precisão, paciência e genuína curiosidade a cada tratamento. A sua abordagem é baseada em evidências, enraizada na teoria clássica da MTC e sempre adaptada ao indivíduo. João pratica actualmente na The Natural Clinic em Cork e na Clínica AC em Quarteira.",
+      body: "João Rosa é acupunctor licenciado e praticante de Medicina Tradicional Chinesa com anos de experiência clínica no tratamento de uma vasta gama de condições físicas e emocionais. Formado em ambientes clínicos orientais e ocidentais, traz precisão, paciência e genuína curiosidade a cada tratamento. A sua abordagem é baseada em provas, enraizada na teoria clássica da MTC e sempre adaptada ao indivíduo. João pratica actualmente na The Natural Clinic em Cork e na Clínica AC em Quarteira.",
     },
 
     // ── Services / Conditions ────────────────────────────────────────
