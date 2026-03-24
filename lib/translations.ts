@@ -206,7 +206,7 @@ export const translations = {
       label: "Condições Tratadas",
       heading: "O Que Trato",
       intro:
-        "A MTC trata a causa raiz, não apenas o sintoma. Estas são algumas das condições que trato regularmente em clínica.",
+        "A MTC trata a causa, não apenas os sintomas. Estas são algumas das condições que trato regularmente em clínica.",
       conditions: [
         "Ansiedade",
         "Dores nas Costas",
