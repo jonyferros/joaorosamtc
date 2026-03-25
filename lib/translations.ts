@@ -258,7 +258,7 @@ export const translations = {
     locations: {
       label: "Localizações",
       heading1: "Duas Clínicas,",
-      heading2: "Uma Prática",
+      heading2: "Um Só Propósito",
       ireland: {
         flag: "🇮🇪",
         clinic: "The Natural Clinic",
