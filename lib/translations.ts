@@ -127,7 +127,7 @@ export const translations = {
     // ── Booking CTA ──────────────────────────────────────────────────
     bookingCta: {
       heading: "Ready to Begin?",
-      body: "Book a session in Cork or Portugal. In-person and online consultations available.",
+      body: "Book a session in Cork or Quarteira. In-person and online consultations available.",
       ctaCork: "Book in Cork",
       ctaPortugal: "Book in Quarteira",
     },
@@ -284,7 +284,7 @@ export const translations = {
     // ── Booking CTA ──────────────────────────────────────────────────
     bookingCta: {
       heading: "Pronto para Começar?",
-      body: "Marque uma sessão em Cork ou em Portugal. Consultas presenciais e online disponíveis.",
+      body: "Marque uma sessão em Cork ou em Quarteira. Consultas presenciais e online disponíveis.",
       ctaCork: "Marcar em Cork",
       ctaPortugal: "Marcar em Quarteira",
     },
