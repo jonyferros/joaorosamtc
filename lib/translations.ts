@@ -153,7 +153,7 @@ export const translations = {
       phoneQuarteira: "+351 916 777 777",
       whatsappHref: "https://wa.me/351916777777",
       email: "info@joaorosamtc.com",
-      instagram: "@joaorosamtc",
+      instagram: "@joaorosa.acupuncture",
     },
 
     // ── Footer ───────────────────────────────────────────────────────
@@ -312,7 +312,7 @@ export const translations = {
       phoneQuarteira: "+351 916 777 777",
       whatsappHref: "https://wa.me/351916777777",
       email: "info@joaorosamtc.com",
-      instagram: "@joaorosamtc",
+      instagram: "@joaorosa.acupuncture",
     },
 
     // ── Footer ───────────────────────────────────────────────────────

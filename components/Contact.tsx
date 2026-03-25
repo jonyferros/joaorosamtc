@@ -314,7 +314,7 @@ export default function Contact() {
               <div>
                 <p className="section-label mb-2">Instagram</p>
                 <a
-                  href="https://instagram.com/joaorosamtc"
+                  href="https://instagram.com/joaorosa.acupuncture"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 font-dm-sans font-light text-text hover:text-accent-green transition-colors"
