@@ -195,16 +195,18 @@ export default function Locations() {
               </div>
 
               {/* Square map */}
-              <div className="w-36 shrink-0 self-stretch">
-                <iframe
-                  title="Clínica AC, Quarteira"
-                  src="https://maps.google.com/maps?q=Clinica+AC,+Rua+Infante+Santo,+Quarteira,+Portugal&output=embed"
-                  width="144"
-                  height="100%"
-                  style={{ border: 0, display: "block", height: "100%", minHeight: 160 }}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+              <div className="shrink-0 p-8 pl-0 flex items-start">
+                <div style={{ width: 120, height: 120, overflow: "hidden", flexShrink: 0 }}>
+                  <iframe
+                    title="Clínica AC, Quarteira"
+                    src="https://maps.google.com/maps?q=Clinica+AC,+Rua+Infante+Santo,+Quarteira,+Portugal&output=embed"
+                    width="120"
+                    height="120"
+                    style={{ border: 0, display: "block" }}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                </div>
               </div>
             </div>
           </motion.div>
