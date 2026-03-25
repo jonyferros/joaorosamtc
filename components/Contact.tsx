@@ -261,15 +261,6 @@ export default function Contact() {
                   <IconPhone />
                   {c.phoneCork}
                 </a>
-                <a
-                  href={c.whatsappHrefIreland}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 mt-2 font-dm-sans font-light text-accent-green hover:opacity-70 transition-opacity"
-                >
-                  <IconWhatsApp />
-                  WhatsApp
-                </a>
               </div>
 
               {/* Portugal phone */}
@@ -288,10 +279,19 @@ export default function Contact() {
               <div>
                 <p className="section-label mb-2">WhatsApp</p>
                 <a
-                  href={c.whatsappHref}
+                  href={c.whatsappHrefIreland}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 font-dm-sans font-light text-accent-green hover:opacity-70 transition-opacity"
+                >
+                  <IconWhatsApp />
+                  {c.phoneCork}
+                </a>
+                <a
+                  href={c.whatsappHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 mt-2 font-dm-sans font-light text-accent-green hover:opacity-70 transition-opacity"
                 >
                   <IconWhatsApp />
                   {c.phoneQuarteira}

@@ -49,7 +49,7 @@ export default function Locations() {
 
           {/* ── Ireland card ──────────────────────────────────────── */}
           <motion.div
-            className="bg-bg p-8 border-l-2 border-l-accent-green"
+            className="bg-bg border-l-2 border-l-accent-green overflow-hidden"
             style={{
               borderTop: "1px solid #D6CFC4",
               borderRight: "1px solid #D6CFC4",
@@ -59,77 +59,82 @@ export default function Locations() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
             transition={{ duration: 0.7, ease: EASE, delay: 0.2 }}
           >
-            <div className="text-2xl mb-4" aria-label="Ireland" role="img">
-              {l.ireland.flag}
-            </div>
+            <div className="flex gap-0">
+              {/* Info */}
+              <div className="flex-1 p-8">
+                <div className="text-2xl mb-4" aria-label="Ireland" role="img">
+                  {l.ireland.flag}
+                </div>
 
-            <h3 className="font-cormorant font-semibold text-2xl text-dark mb-2">
-              {l.ireland.clinic}
-            </h3>
+                <h3 className="font-cormorant font-semibold text-2xl text-dark mb-2">
+                  {l.ireland.clinic}
+                </h3>
 
-            <p className="font-dm-sans font-light text-text text-sm leading-relaxed mb-1">
-              {l.ireland.address}
-            </p>
+                <p className="font-dm-sans font-light text-text text-sm leading-relaxed mb-1">
+                  {l.ireland.address}
+                </p>
 
-            <a
-              href={`https://${l.ireland.website}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
-            >
-              {l.ireland.website}
-            </a>
+                <a
+                  href={`https://${l.ireland.website}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
+                >
+                  {l.ireland.website}
+                </a>
 
-            <div className="mt-3 flex items-center gap-3">
-              <a
-                href={`tel:${l.ireland.phone.replace(/\s/g, "")}`}
-                className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
-              >
-                {l.ireland.phone}
-              </a>
-              <a
-                href={l.ireland.whatsappHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-accent-green hover:opacity-70 transition-opacity"
-              >
-                WhatsApp ↗
-              </a>
-            </div>
+                <div className="mt-3 flex items-center gap-3">
+                  <a
+                    href={`tel:${l.ireland.phone.replace(/\s/g, "")}`}
+                    className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
+                  >
+                    {l.ireland.phone}
+                  </a>
+                  <a
+                    href={l.ireland.whatsappHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="WhatsApp"
+                    className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-accent-green hover:opacity-70 transition-opacity"
+                  >
+                    WhatsApp ↗
+                  </a>
+                </div>
 
-            {/* Mini map */}
-            <div className="mt-4 overflow-hidden" style={{ height: 140 }}>
-              <iframe
-                title="The Natural Clinic, Cork"
-                src="https://maps.google.com/maps?q=The+Natural+Clinic,+23+Sullivans+Quay,+Cork,+Ireland&output=embed"
-                width="100%"
-                height="140"
-                style={{ border: 0 }}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
+                <p className="mt-6 font-dm-sans font-light text-muted text-sm">
+                  {l.ireland.note}
+                </p>
 
-            <p className="mt-4 font-dm-sans font-light text-muted text-sm">
-              {l.ireland.note}
-            </p>
+                <div className="mt-6">
+                  <a
+                    href={l.ireland.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary inline-block text-sm"
+                  >
+                    {l.ireland.cta}
+                  </a>
+                </div>
+              </div>
 
-            <div className="mt-6">
-              <a
-                href={l.ireland.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary inline-block text-sm"
-              >
-                {l.ireland.cta}
-              </a>
+              {/* Square map */}
+              <div className="w-36 shrink-0 self-stretch">
+                <iframe
+                  title="The Natural Clinic, Cork"
+                  src="https://maps.google.com/maps?q=The+Natural+Clinic,+23+Sullivans+Quay,+Cork,+Ireland&output=embed"
+                  width="144"
+                  height="100%"
+                  style={{ border: 0, display: "block", height: "100%", minHeight: 160 }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
             </div>
           </motion.div>
 
           {/* ── Portugal card ─────────────────────────────────────── */}
           <motion.div
-            className="bg-bg p-8 border-l-2 border-l-accent-green"
+            className="bg-bg border-l-2 border-l-accent-green overflow-hidden"
             style={{
               borderTop: "1px solid #D6CFC4",
               borderRight: "1px solid #D6CFC4",
@@ -139,61 +144,66 @@ export default function Locations() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
             transition={{ duration: 0.7, ease: EASE, delay: 0.35 }}
           >
-            <div className="text-2xl mb-4" aria-label="Portugal" role="img">
-              {l.portugal.flag}
-            </div>
+            <div className="flex gap-0">
+              {/* Info */}
+              <div className="flex-1 p-8">
+                <div className="text-2xl mb-4" aria-label="Portugal" role="img">
+                  {l.portugal.flag}
+                </div>
 
-            <h3 className="font-cormorant font-semibold text-2xl text-dark mb-2">
-              {l.portugal.clinic}
-            </h3>
+                <h3 className="font-cormorant font-semibold text-2xl text-dark mb-2">
+                  {l.portugal.clinic}
+                </h3>
 
-            <p className="font-dm-sans font-light text-text text-sm leading-relaxed mb-1">
-              {l.portugal.address}
-            </p>
+                <p className="font-dm-sans font-light text-text text-sm leading-relaxed mb-1">
+                  {l.portugal.address}
+                </p>
 
-            {/* Phone + WhatsApp shortcut side by side */}
-            <div className="flex items-center gap-3">
-              <a
-                href={`tel:${l.portugal.phone.replace(/\s/g, "")}`}
-                className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
-              >
-                {l.portugal.phone}
-              </a>
-              <a
-                href={l.portugal.whatsappHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-accent-green hover:opacity-70 transition-opacity"
-              >
-                WhatsApp ↗
-              </a>
-            </div>
+                {/* Phone + WhatsApp shortcut side by side */}
+                <div className="flex items-center gap-3">
+                  <a
+                    href={`tel:${l.portugal.phone.replace(/\s/g, "")}`}
+                    className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
+                  >
+                    {l.portugal.phone}
+                  </a>
+                  <a
+                    href={l.portugal.whatsappHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="WhatsApp"
+                    className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-accent-green hover:opacity-70 transition-opacity"
+                  >
+                    WhatsApp ↗
+                  </a>
+                </div>
 
-            {/* Mini map */}
-            <div className="mt-4 overflow-hidden" style={{ height: 140 }}>
-              <iframe
-                title="Clínica AC, Quarteira"
-                src="https://maps.google.com/maps?q=Rua+Infante+Santo,+Quarteira,+Portugal&output=embed"
-                width="100%"
-                height="140"
-                style={{ border: 0 }}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
+                <p className="mt-6 font-dm-sans font-light text-muted text-sm">
+                  {l.portugal.note}
+                </p>
 
-            <p className="mt-4 font-dm-sans font-light text-muted text-sm">
-              {l.portugal.note}
-            </p>
+                <div className="mt-6">
+                  <a
+                    href={l.portugal.href}
+                    className="btn-primary inline-block text-sm"
+                  >
+                    {l.portugal.cta}
+                  </a>
+                </div>
+              </div>
 
-            <div className="mt-6">
-              <a
-                href={l.portugal.href}
-                className="btn-primary inline-block text-sm"
-              >
-                {l.portugal.cta}
-              </a>
+              {/* Square map */}
+              <div className="w-36 shrink-0 self-stretch">
+                <iframe
+                  title="Clínica AC, Quarteira"
+                  src="https://maps.google.com/maps?q=Rua+Infante+Santo,+Quarteira,+Portugal&output=embed"
+                  width="144"
+                  height="100%"
+                  style={{ border: 0, display: "block", height: "100%", minHeight: 160 }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
             </div>
           </motion.div>
         </div>
