@@ -30,7 +30,7 @@ export const translations = {
       stats: [
         { label: "Discipline", value: "Acupuncture & TCM" },
         { label: "Locations", value: "Cork  ·  Quarteira" },
-        { label: "Consultations", value: "In-person & Online" },
+        { label: "Consultations", value: "In-person" },
       ],
       // Customer quote — displayed below the stats strip
       quote: {
@@ -108,6 +108,7 @@ export const translations = {
         address: "The Old Firehouse, 23 Sullivans Quay, Cork, Ireland",
         website: "thenaturalclinic.ie",
         phone: "+353 85 263 0800",
+        whatsappHref: "https://wa.me/353852630800",
         note: "Accepting patients in Cork.",
         cta: "Book in Cork →",
         href: "https://thenaturalclinic.ie/appointment/",
@@ -127,7 +128,7 @@ export const translations = {
     // ── Booking CTA ──────────────────────────────────────────────────
     bookingCta: {
       heading: "Ready to Begin?",
-      body: "Book a session in Cork or Quarteira. In-person and online consultations available.",
+      body: "Book a session in Cork or Quarteira. In-person consultations only.",
       ctaCork: "Book in Cork",
       ctaPortugal: "Book in Quarteira",
     },
@@ -148,6 +149,7 @@ export const translations = {
       labelIreland: "Ireland",
       labelPortugal: "Portugal",
       phoneCork: "+353 85 263 0800",
+      whatsappHrefIreland: "https://wa.me/353852630800",
       phoneQuarteira: "+351 916 777 777",
       whatsappHref: "https://wa.me/351916777777",
       email: "info@joaorosamtc.com",
@@ -187,7 +189,7 @@ export const translations = {
       stats: [
         { label: "Disciplina", value: "Acupuntura & MTC" },
         { label: "Localizações", value: "Cork  ·  Quarteira" },
-        { label: "Consultas", value: "Presencial & Online" },
+        { label: "Consultas", value: "Presencial" },
       ],
       // Customer quote — displayed below the stats strip
       quote: {
@@ -265,6 +267,7 @@ export const translations = {
         address: "The Old Firehouse, 23 Sullivans Quay, Cork, Ireland",
         website: "thenaturalclinic.ie",
         phone: "+353 85 263 0800",
+        whatsappHref: "https://wa.me/353852630800",
         note: "A aceitar pacientes em Cork.",
         cta: "Marcar em Cork →",
         href: "https://thenaturalclinic.ie/appointment/",
@@ -284,7 +287,7 @@ export const translations = {
     // ── Booking CTA ──────────────────────────────────────────────────
     bookingCta: {
       heading: "Pronto para Começar?",
-      body: "Marque uma sessão em Cork ou em Quarteira. Consultas presenciais e online disponíveis.",
+      body: "Marque uma sessão em Cork ou em Quarteira. Consultas presenciais apenas.",
       ctaCork: "Marcar em Cork",
       ctaPortugal: "Marcar em Quarteira",
     },
@@ -305,6 +308,7 @@ export const translations = {
       labelIreland: "Irlanda",
       labelPortugal: "Portugal",
       phoneCork: "+353 85 263 0800",
+      whatsappHrefIreland: "https://wa.me/353852630800",
       phoneQuarteira: "+351 916 777 777",
       whatsappHref: "https://wa.me/351916777777",
       email: "info@joaorosamtc.com",

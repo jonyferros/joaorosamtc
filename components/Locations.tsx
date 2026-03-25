@@ -80,16 +80,38 @@ export default function Locations() {
               {l.ireland.website}
             </a>
 
-            <div className="mt-3">
+            <div className="mt-3 flex items-center gap-3">
               <a
                 href={`tel:${l.ireland.phone.replace(/\s/g, "")}`}
                 className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-muted hover:text-accent-green transition-colors"
               >
                 {l.ireland.phone}
               </a>
+              <a
+                href={l.ireland.whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="font-dm-mono text-[0.65rem] tracking-[0.12em] uppercase text-accent-green hover:opacity-70 transition-opacity"
+              >
+                WhatsApp ↗
+              </a>
             </div>
 
-            <p className="mt-6 font-dm-sans font-light text-muted text-sm">
+            {/* Mini map */}
+            <div className="mt-4 overflow-hidden" style={{ height: 140 }}>
+              <iframe
+                title="The Natural Clinic, Cork"
+                src="https://maps.google.com/maps?q=The+Natural+Clinic,+23+Sullivans+Quay,+Cork,+Ireland&output=embed"
+                width="100%"
+                height="140"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+
+            <p className="mt-4 font-dm-sans font-light text-muted text-sm">
               {l.ireland.note}
             </p>
 
@@ -148,7 +170,20 @@ export default function Locations() {
               </a>
             </div>
 
-            <p className="mt-6 font-dm-sans font-light text-muted text-sm">
+            {/* Mini map */}
+            <div className="mt-4 overflow-hidden" style={{ height: 140 }}>
+              <iframe
+                title="Clínica AC, Quarteira"
+                src="https://maps.google.com/maps?q=Rua+Infante+Santo,+Quarteira,+Portugal&output=embed"
+                width="100%"
+                height="140"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+
+            <p className="mt-4 font-dm-sans font-light text-muted text-sm">
               {l.portugal.note}
             </p>
 
