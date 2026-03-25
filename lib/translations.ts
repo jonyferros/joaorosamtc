@@ -244,7 +244,7 @@ export const translations = {
         {
           number: "02",
           title: "Tratamento Personalizado",
-          body: "Protocolos de acupuntura e MTC concebidos especificamente para o seu quadro clínico, não uma abordagem genérica.",
+          body: "Tratamentos de acupuntura e MTC concebidos especificamente para o seu quadro clínico, não uma abordagem genérica.",
         },
         {
           number: "03",
