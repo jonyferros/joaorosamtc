@@ -207,7 +207,7 @@ export const translations = {
 
     // ── Services / Conditions ────────────────────────────────────────
     services: {
-      label: "Condições Tratadas",
+      label: "Áreas de Tratamento",
       heading: "O Que Trato",
       intro:
         "A MTC trata a causa, não apenas os sintomas. Estas são algumas das condições que trato regularmente em clínica.",
