@@ -159,7 +159,7 @@ export const translations = {
       tagline: "Acupuncture & Traditional Chinese Medicine",
       disclaimer:
         "Acupuncture and TCM are complementary therapies and do not replace conventional medical care. Always consult your GP for medical emergencies.",
-      copyright: "© 2025 João Rosa MTC. All rights reserved.",
+      copyright: "© 2026 João Rosa MTC. All rights reserved.",
     },
   },
 
@@ -202,7 +202,7 @@ export const translations = {
       label: "Sobre",
       heading1: "Uma Abordagem Fundamentada",
       heading2: "à Cura Ancestral",
-      body: "João Rosa é acupunctor licenciado e praticante de Medicina Tradicional Chinesa com anos de experiência clínica no tratamento de uma vasta gama de condições físicas e emocionais. Formado em ambientes clínicos orientais e ocidentais, traz precisão, paciência e genuína curiosidade a cada tratamento. A sua abordagem é baseada em provas, enraizada na teoria clássica da MTC e sempre adaptada ao indivíduo. João pratica actualmente na The Natural Clinic em Cork e na Clínica AC em Quarteira.",
+      body: "João Rosa é acupunctor licenciado e especialista em Medicina Tradicional Chinesa, com vasta experiência clínica no tratamento de condições físicas e emocionais. Com formação em contextos clínicos orientais e ocidentais, alia precisão, paciência e genuína curiosidade em cada consulta. A sua abordagem é baseada em provas, enraizada na teoria clássica da MTC e sempre adaptada a cada doente. Exerce actualmente na The Natural Clinic, em Cork, e na Clínica AC, em Quarteira.",
     },
 
     // ── Services / Conditions ────────────────────────────────────────
@@ -316,7 +316,7 @@ export const translations = {
       tagline: "Acupuntura & Medicina Tradicional Chinesa",
       disclaimer:
         "A acupuntura e a MTC são terapias complementares e não substituem os cuidados médicos convencionais. Em caso de emergência, contacte o seu médico.",
-      copyright: "© 2025 João Rosa MTC. Todos os direitos reservados.",
+      copyright: "© 2026 João Rosa MTC. Todos os direitos reservados.",
     },
   },
 } as const;
