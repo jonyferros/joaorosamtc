@@ -52,8 +52,8 @@ export default function Navbar() {
             <Image
               src="/images/logo.png"
               alt="João Rosa Chinese Medicine"
-              height={64}
-              width={114}
+              height={44}
+              width={134}
               className="object-contain"
               priority
             />
