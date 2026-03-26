@@ -20,7 +20,7 @@ export default function Locations() {
 
   useEffect(() => {
     (async () => {
-      const cal = await getCalApi({ namespace: "quarteira" });
+      const cal = await getCalApi({ namespace: "quarteira", calOrigin: "https://cal.eu" });
       cal("ui", { theme: "light", styles: { branding: { brandColor: "#3D5A36" } } });
     })();
   }, []);

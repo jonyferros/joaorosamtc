@@ -11,7 +11,7 @@ export default function BookingPage() {
 
   useEffect(() => {
     (async () => {
-      const cal = await getCalApi({ namespace: "booking" });
+      const cal = await getCalApi({ namespace: "booking", calOrigin: "https://cal.eu" });
       cal("ui", { theme: "light", styles: { branding: { brandColor: "#3D5A36" } } });
     })();
   }, []);
@@ -27,6 +27,7 @@ export default function BookingPage() {
           <Cal
             namespace="booking"
             calLink="joaorosamtc"
+            calOrigin="https://cal.eu"
             style={{ width: "100%", height: "700px", overflow: "scroll" }}
             config={{ layout: "month_view" }}
           />
