@@ -52,7 +52,12 @@ export default function BookingCTA() {
             {b.ctaCork}
           </a>
 
-          <a href="mailto:info@joaorosamtc.com" className="btn-outline-light">
+          <a
+            href="https://cal.eu/joaorosamtc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline-light"
+          >
             {b.ctaPortugal}
           </a>
         </motion.div>
