@@ -1,7 +1,8 @@
 "use client";
 
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
+import { getCalApi } from "@calcom/embed-react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -16,6 +17,13 @@ export default function Locations() {
   const l = t.locations;
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
+
+  useEffect(() => {
+    (async () => {
+      const cal = await getCalApi({ namespace: "quarteira" });
+      cal("ui", { theme: "light", styles: { branding: { brandColor: "#3D5A36" } } });
+    })();
+  }, []);
 
   return (
     <section id="locations" className="bg-surface py-24 lg:py-32" ref={ref}>
@@ -185,12 +193,14 @@ export default function Locations() {
                 </p>
 
                 <div className="mt-6">
-                  <a
-                    href={l.portugal.href}
-                    className="btn-primary inline-block text-sm"
+                  <button
+                    data-cal-namespace="quarteira"
+                    data-cal-link="joaorosamtc"
+                    data-cal-config='{"layout":"month_view"}'
+                    className="btn-primary text-sm cursor-pointer"
                   >
                     {l.portugal.cta}
-                  </a>
+                  </button>
                 </div>
               </div>
 
@@ -198,8 +208,8 @@ export default function Locations() {
               <div className="shrink-0 p-8 pl-0 flex items-start">
                 <div style={{ width: 120, height: 120, overflow: "hidden", flexShrink: 0 }}>
                   <iframe
-                    title="Clínica AC, Quarteira"
-                    src="https://maps.google.com/maps?q=Clinica+AC,+Rua+Infante+Santo,+Quarteira,+Portugal&output=embed"
+                    title="Natursol, Quarteira"
+                    src="https://maps.google.com/maps?q=Natursol,+Rua+Infante+Santo+Loja+4,+8125-224+Quarteira,+Portugal&output=embed"
                     width="120"
                     height="120"
                     style={{ border: 0, display: "block" }}

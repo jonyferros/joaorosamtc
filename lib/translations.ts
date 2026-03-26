@@ -115,14 +115,19 @@ export const translations = {
       },
       portugal: {
         flag: "🇵🇹",
-        clinic: "Clínica AC",
-        address: "Rua Infante Santo, Quarteira, Portugal",
+        clinic: "Natursol",
+        address: "Rua Infante Santo Loja 4, 8125-224 Quarteira",
         phone: "+351 916 777 777",
         whatsappHref: "https://wa.me/351916777777",
         note: "Now accepting new patients in Portugal.",
         cta: "Book in Quarteira →",
         href: "mailto:info@joaorosamtc.com",
       },
+    },
+
+    // ── Booking page ─────────────────────────────────────────────────
+    bookingPage: {
+      heading: "Book a Session",
     },
 
     // ── Booking CTA ──────────────────────────────────────────────────
@@ -274,14 +279,19 @@ export const translations = {
       },
       portugal: {
         flag: "🇵🇹",
-        clinic: "Clínica AC",
-        address: "Rua Infante Santo, Quarteira, Portugal",
+        clinic: "Natursol",
+        address: "Rua Infante Santo Loja 4, 8125-224 Quarteira",
         phone: "+351 916 777 777",
         whatsappHref: "https://wa.me/351916777777",
         note: "A aceitar novos pacientes em Portugal.",
         cta: "Marcar em Quarteira →",
         href: "mailto:info@joaorosamtc.com",
       },
+    },
+
+    // ── Booking page ─────────────────────────────────────────────────
+    bookingPage: {
+      heading: "Marcar Consulta",
     },
 
     // ── Booking CTA ──────────────────────────────────────────────────
