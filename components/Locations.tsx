@@ -209,7 +209,7 @@ export default function Locations() {
                 <div style={{ width: 120, height: 120, overflow: "hidden", flexShrink: 0 }}>
                   <iframe
                     title="Natursol, Quarteira"
-                    src="https://maps.google.com/maps?q=Natursol,+Rua+Infante+Santo+Loja+4,+8125-224+Quarteira,+Portugal&output=embed"
+                    src="https://maps.google.com/maps?q=Natursol,+Rua+Infante+Santo+Loja+4,+8125-224+Quarteira,+Portugal&output=embed&z=16"
                     width="120"
                     height="120"
                     style={{ border: 0, display: "block" }}
