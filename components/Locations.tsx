@@ -1,8 +1,7 @@
 "use client";
 
 import { motion, useInView } from "framer-motion";
-import { useRef, useEffect } from "react";
-import { getCalApi } from "@calcom/embed-react";
+import { useRef } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -17,13 +16,6 @@ export default function Locations() {
   const l = t.locations;
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
-
-  useEffect(() => {
-    (async () => {
-      const cal = await getCalApi({ namespace: "quarteira", calOrigin: "https://cal.eu" });
-      cal("ui", { theme: "light", styles: { branding: { brandColor: "#3D5A36" } } });
-    })();
-  }, []);
 
   return (
     <section id="locations" className="bg-surface py-24 lg:py-32" ref={ref}>
@@ -193,14 +185,14 @@ export default function Locations() {
                 </p>
 
                 <div className="mt-6">
-                  <button
-                    data-cal-namespace="quarteira"
-                    data-cal-link="joaorosamtc"
-                    data-cal-config='{"layout":"month_view"}'
-                    className="btn-primary text-sm cursor-pointer"
+                  <a
+                    href="https://cal.eu/joaorosamtc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary inline-block text-sm"
                   >
                     {l.portugal.cta}
-                  </button>
+                  </a>
                 </div>
               </div>
 
