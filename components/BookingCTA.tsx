@@ -53,9 +53,7 @@ export default function BookingCTA() {
           </a>
 
           <a
-            href="https://cal.eu/joaorosamtc"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/booking"
             className="btn-outline-light"
           >
             {b.ctaPortugal}

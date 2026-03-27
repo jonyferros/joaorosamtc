@@ -186,9 +186,7 @@ export default function Locations() {
 
                 <div className="mt-6">
                   <a
-                    href="https://cal.eu/joaorosamtc"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/booking"
                     className="btn-primary inline-block text-sm"
                   >
                     {l.portugal.cta}
